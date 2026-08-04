@@ -43,7 +43,12 @@ The dataset is synthetic and was created for educational purposes. It does not r
 - Grouping and aggregation
 - Feature engineering
 - Exploratory data analysis preparation
-
+- Matplotlib
+- Seaborn
+- Tableau Public
+- Data visualization
+- Outlier analysis
+  
 ## Tasks Completed
 
 - Imported the dataset into a pandas DataFrame
@@ -81,9 +86,6 @@ These variables help compare engagement across videos with different total view 
 - Select useful predictors
 - Build and evaluate a classification model
 
-## Project File
-
-- `tiktok_claims_analysis.ipynb` — completed Python notebook
 
 ## Note
 
