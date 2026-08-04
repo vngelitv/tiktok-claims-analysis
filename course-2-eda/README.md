@@ -17,3 +17,10 @@ This folder contains the second phase of the TikTok Claims Analysis project.
 
 - `tiktok_course2_eda.ipynb` — completed Python EDA notebook
 - `tiktok_scatterplot.png` — Tableau visualization
+
+## Key Findings
+
+- Claim videos received much higher median views than opinion videos.
+- Banned and under-review authors had higher median engagement than active authors.
+- Engagement variables were strongly right-skewed.
+- High-value outliers may represent valid viral content rather than data errors.
