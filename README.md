@@ -127,6 +127,24 @@ The Tableau scatterplot examines the relationship between video views and video 
 
 ![TikTok Tableau Scatterplot](course-2-eda/tiktok_scatterplot.png)
 
+
+### Course 3: Statistical Analysis and Hypothesis Testing
+
+- Reviewed descriptive statistics and missing values
+- Compared average video view counts by verification status
+- Formulated null and alternative hypotheses
+- Conducted a two-sample t-test
+- Used a 5% significance level
+- Found a statistically significant difference in average video views between verified and unverified accounts
+- Interpreted the findings for business stakeholders
+
+## Key Course 3 Finding
+
+Verified and unverified TikTok accounts had significantly different average video view counts (`p ≈ 2.61 × 10⁻¹²⁰`).
+
+Because the p-value was far below the 0.05 significance level, the null hypothesis was rejected. Verification status may be an important variable to consider when analyzing engagement and developing future predictive models.
+
+
 ## Project Files
 
 ### Course 1
@@ -137,3 +155,8 @@ The Tableau scatterplot examines the relationship between video views and video 
 
 - `course-2-eda/tiktok_course2_eda.ipynb` — exploratory data analysis notebook
 - `course-2-eda/tiktok_scatterplot.png` — Tableau visualization
+
+### Course 3
+
+- `course-3-statistics/tiktok_course3_statistics.ipynb` — statistical analysis and hypothesis testing notebook
+- `course-3-statistics/README.md` — Course 3 project summary
