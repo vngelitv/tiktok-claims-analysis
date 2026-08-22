@@ -144,6 +144,28 @@ Verified and unverified TikTok accounts had significantly different average vide
 
 Because the p-value was far below the 0.05 significance level, the null hypothesis was rejected. Verification status may be an important variable to consider when analyzing engagement and developing future predictive models.
 
+### Course 4: Logistic Regression
+
+- Performed EDA in preparation for regression modeling
+- Examined missing values, duplicates, outliers, and class balance
+- Engineered video transcription text length as a potential predictor
+- Examined correlations and potential multicollinearity
+- Selected features for logistic regression
+- Split data into training and testing sets
+- One-hot encoded categorical variables
+- Built a logistic regression model to predict verified status
+- Evaluated predictions using a confusion matrix
+- Assessed model performance using precision, recall, F1-score, and accuracy
+- Interpreted model coefficients to understand relationships between features and verified status
+
+## Key Course 4 Findings
+
+The verified-status outcome was highly imbalanced before balancing, with approximately 94.2% of observations representing unverified accounts and 5.8% representing verified accounts.
+
+Logistic regression was used to investigate how video and account characteristics relate to the probability that an account is verified. The analysis also considered correlations among engagement variables to avoid severe multicollinearity.
+
+The results provide additional insight into user characteristics that may eventually support the broader TikTok claims-versus-opinions classification project.
+
 
 ## Project Files
 
@@ -160,3 +182,8 @@ Because the p-value was far below the 0.05 significance level, the null hypothes
 
 - `course-3-statistics/tiktok_course3_statistics.ipynb` — statistical analysis and hypothesis testing notebook
 - `course-3-statistics/README.md` — Course 3 project summary
+
+### Course 4
+
+- `course-4-regression/tiktok_course4_logistic_regression.ipynb` — logistic regression modeling notebook
+- `course-4-regression/README.md` — Course 4 project summary
