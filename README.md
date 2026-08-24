@@ -166,6 +166,28 @@ Logistic regression was used to investigate how video and account characteristic
 
 The results provide additional insight into user characteristics that may eventually support the broader TikTok claims-versus-opinions classification project.
 
+### Course 5: Machine Learning
+
+- Evaluated ethical implications of claim classification
+- Handled missing values and checked class balance
+- Engineered video transcription text length as a predictive feature
+- Encoded target and categorical variables
+- Split the data into training, validation, and test sets
+- Built and tuned Random Forest and XGBoost classifiers
+- Used GridSearchCV and cross-validation
+- Prioritized recall while also monitoring precision
+- Compared model performance on validation data
+- Evaluated the champion model on held-out test data
+- Created confusion matrices and classification reports
+- Examined feature importance
+
+## Key Course 5 Findings
+
+The claim-versus-opinion target was nearly balanced, which supported model training without major class-imbalance concerns.
+
+The Random Forest model achieved extremely strong cross-validation performance, with recall around 0.995 and precision around 0.999.
+
+Both tree-based models performed very well, with very few classification errors. The final evaluation used a held-out test set to assess the champion model's ability to generalize to unseen data.
 
 ## Project Files
 
@@ -187,3 +209,8 @@ The results provide additional insight into user characteristics that may eventu
 
 - `course-4-regression/tiktok_course4_logistic_regression.ipynb` — logistic regression modeling notebook
 - `course-4-regression/README.md` — Course 4 project summary
+- 
+### Course 5
+
+- `course-5-machine-learning/tiktok_course5_machine_learning.ipynb` — Random Forest and XGBoost classification notebook
+- `course-5-machine-learning/README.md` — Course 5 project summary
